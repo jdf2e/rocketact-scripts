@@ -14,7 +14,7 @@ export default (api: CoreAPI) => {
     webpackChain.output
       .pathinfo(isDevelopmentEnv())
       .filename("js/[name].bundle.js")
-      .chunkFilename("js/[name].bundle.js")
+      .chunkFilename("js/[name].bundle.js") // FIXME: support product hash
       .publicPath(
         isDevelopmentEnv()
           ? "/"
