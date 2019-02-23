@@ -1,3 +1,6 @@
+# This repo has been archived. Please refer to https://github.com/jdf2e/rocketact
+
+
 # rocketact-scripts
 
 This package contains scripts that used by projects created by [rocketact](https://github.com/jdf2e/rocketact)
